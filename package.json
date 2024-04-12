@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@macaron-css/core": "1.5.1",
+    "@macaron-css/solid": "1.5.1",
+    "@macaron-css/vite": "1.5.1",
+    "solid-js": "1.8.16"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "vite": "5.2.8",
+    "vite-plugin-solid": "2.10.2"
+  }
+}
